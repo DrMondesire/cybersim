@@ -1,0 +1,12 @@
+﻿Action,Red,Blue,Success_Probability,Delay_Minimum,Delay_Maximum,Timeout,Require_Port,Require_Service,Require_Vulnerability,Require_Misc,Return_IP,Return_Port,Return_Service,Return_Vulnerability
+ping,True,True,0.95,5,80,4000,False,False,False,False,True,False,False,False
+port scan,True,True,0.95,50,100,10000,True,False,False,False,True,True,False,False
+netstat,True,True,0.95,100,150,20000,True,False,False,False,True,True,True,False
+password crack,True,True,0.001,25,50,100000,True,True,True,False,True,True,True,True
+sql injection,True,True,1,10,30,100000,True,True,True,False,True,True,True,True
+default password,True,True,1,10,30,100000,True,True,True,False,True,True,True,True
+send message,True,True,0.95,25,50,5000,True,False,False,True,False,False,False,False
+admin remove service,False,True,1,10,30,100000,True,True,True,False,True,True,True,True
+admin add service,False,True,1,10,30,100000,True,True,False,False,True,True,True,True
+admin action log,False,True,1,10,30,100000,False,False,False,False,True,True,True,True
+admin network table,False,True,1,10,30,100000,False,False,False,False,True,True,True,True

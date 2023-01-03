@@ -1,0 +1,7 @@
+﻿IP,Port,Service,Vulnerability
+192.168.0.2,,ping,
+192.168.0.2,22,ssh,password crack
+192.168.0.2,43,whois,
+192.168.0.2,80,apache,sql injection
+192.168.0.2,443,apache,sql injection
+192.168.0.3,3306,mysql,default password
